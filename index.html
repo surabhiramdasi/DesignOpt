@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets/css/glightbox.min.css" />
 	</head>
 	<body class="is-preload">
 
@@ -60,7 +61,7 @@
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/Topo.JPG" alt="" /></a>
+									<a href="images/Topo.JPG" class="glightbox"><img src="images/Topo.JPG" alt="" class="image fit" /></a>
 									<div class="content">
 										<h2 class="major">Topology Optimization</h2>
 										<p>Topology optimization is a powerful tool that can be used to expedite the ALD process. The design-analysis iterative process for complex components like cylinder heads, flywheel housings
@@ -134,6 +135,11 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/glightbox.min.js"></script>
+		
+			<script types="text/javascript">
+				const lightbox = GLightbox({ loop: true });
+			</script>
 
 	</body>
 </html>
